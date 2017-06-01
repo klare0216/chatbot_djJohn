@@ -7,8 +7,8 @@ from flask import Flask, request, send_file
 from fsm import TocMachine
 
 
-API_TOKEN = '300971648:AAEz7MGcmBvG5oLczYQ1DKsQSPbtJgKaH-Q'
-WEBHOOK_URL = 'https://a7a94e7c.ngrok.io/hook'
+API_TOKEN = ''
+WEBHOOK_URL = ''
 
 app = Flask(__name__)
 bot = telegram.Bot(token=API_TOKEN)
@@ -137,7 +137,7 @@ def webhook_handler():
 
     # send the photo of fsm
     if machine.show == 1:
-        machine.get_graph().draw('img/my_state_diagram.png', prog='dot')    
+        machine.get_graph().draw('my_state_diagram.png', prog='dot')    
         print('send_fsm_diagram')
         with open('my_state_diagram.png','rb') as photo:
             bot.send_photo(chat_id=chat_id, photo=photo);

@@ -49,15 +49,18 @@ sudo python3 app.py
 
 ## How to talk to the bot?
 - 查詢類別：歌手/歌曲/風格
-- 查詢內容：使用這自訂義
+- 查詢內容：使用者自訂義
 
 可以輸入：
 `[查詢類別] [查詢內容]`
 
 e.g.
 歌手 張懸
+
 歌手 greenday
+
 風格 爵士
+
 風格 搖滾
 
 
@@ -66,4 +69,21 @@ e.g.
 
 e.g. 歌手 不要 周杰倫
 
+
 <img src='./img/bot_example_1.png' width='350'>
+
+會回傳歌手或風格的相關歌曲
+
+接者會出現問題要不要更多相同歌手或樂風的其他歌曲
+
+可以回應:`好/ok/yes`
+
+或回應:`不/no`
+
+即可跳出迴圈
+
+<img src='./img/bot_example_2.png' width='350'>
+
+<img src='./img/bot_example_3.png' width='350'>
+
+<img src='./img/bot_example_4.png' width='350'>
