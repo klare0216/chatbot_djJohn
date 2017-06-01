@@ -65,5 +65,5 @@ e.g.
 `[查詢類別] [否定詞] [查詢內容]`
 
 e.g. 歌手 不要 周杰倫
-<img src='./img/bot_example_1.png' width='100'>
-![bot_example](./img/bot_example_1.png)
+
+<img src='./img/bot_example_1.png' width='350'>
